@@ -1,12 +1,12 @@
 const scarf = 15.678; 
 const shoes = 123.965; 
 const coat = 90.2345;
-let sumOfGoods = scarf + shoes + coat;
-let aproxSumOfGoods = Math.floor(scarf) + Math.floor(shoes) + Math.floor(coat);
-let hundredsSum = Math.floor(aproxSumOfGoods/100)*100;
-let isEven = sumOfGoods % 2 == 0;
-let changeFromPayment = 500 - sumOfGoods;
-let averageAprox = (sumOfGoods / 3).toFixed(2);
+const sumOfGoods = scarf + shoes + coat;
+const aproxSumOfGoods = Math.floor(scarf) + Math.floor(shoes) + Math.floor(coat);
+const hundredsSum = Math.floor(aproxSumOfGoods/100)*100;
+const isEven = sumOfGoods % 2 == 0;
+const changeFromPayment = 500 - sumOfGoods;
+const averageAprox = (sumOfGoods / 3).toFixed(2);
 let randomDiscount = Math.random()*100;
 let sumWithDiscount = ((1 - randomDiscount/100) * sumOfGoods).toFixed(2);
 let netProfit = sumOfGoods/2 - sumOfGoods*randomDiscount/100;
