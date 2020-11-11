@@ -1,6 +1,6 @@
-let scarf = 15.678; 
-let shoes = 123.965; 
-let coat = 90.2345;
+const scarf = 15.678; 
+const shoes = 123.965; 
+const coat = 90.2345;
 let sumOfGoods = scarf + shoes + coat;
 let aproxSumOfGoods = Math.floor(scarf) + Math.floor(shoes) + Math.floor(coat);
 let hundredsSum = Math.floor(aproxSumOfGoods/100)*100;
